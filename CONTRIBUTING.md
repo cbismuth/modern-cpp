@@ -26,7 +26,7 @@ Build bits are located in the [docker-entrypoint.sh](docker-entrypoint.sh) scrip
 
 ### Code formatting and checks
 
-Code formatting and checks are wrapped within the Docker build script, see [docker-build.sh](docker-build.sh).
+Code formatting and checks are wrapped within the Docker build script, also see [docker-entrypoint.sh](docker-entrypoint.sh).
 
 Underneath `clang-format`, `clang-tidy` and `lcov` are used to build C++ source code, the modern way.
 
