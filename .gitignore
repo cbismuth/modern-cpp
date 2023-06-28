@@ -8,4 +8,6 @@
 .idea/
 
 # Build output
-cmake-build-*/
+build/
+cmake-build-debug/
+cmake-build-release/
