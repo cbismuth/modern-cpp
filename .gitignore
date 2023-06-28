@@ -4,5 +4,5 @@
 # Visual Studio Code
 .vscode/
 
-# CMake output directory
-build/
+# Build output
+cmake-build-*/
