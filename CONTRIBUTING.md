@@ -22,6 +22,8 @@ Build output directory named `cmake-build-debug` will be automatically copied fr
 
 GitHub Actions is also enabled on this repository, see [docker.yml](.github/workflows/docker.yml) and all [workflows](https://github.com/cbismuth/modern-cpp/actions).
 
+Build bits are located in the [docker-entrypoint.sh](docker-entrypoint.sh) script.
+
 ### Code formatting and checks
 
 Code formatting and checks are wrapped within the Docker build script, see [docker-build.sh](docker-build.sh).
@@ -31,10 +33,10 @@ Underneath `clang-format`, `clang-tidy` and `lcov` are used to build C++ source 
 ### IDE support
 
 - *VS Code* - [C/C++ Extension Pack](https://github.com/microsoft/vscode-cpptools) plugin can import and build CMake projects out of the box.
-- *IntelliJ* - [IntelliJ](https://www.jetbrains.com/idea) has limited support to CMake projects out of the box.
-- *CLion* - [CLion](https://www.jetbrains.com/clion) can import and build CMake projects out of the box.
-- *Eclipse*  - Not tested.
-- *Netbeans* - Not tested.
+- *IntelliJ* - [IntelliJ](https://jetbrains.com/idea) has limited support to CMake projects out of the box.
+- *CLion* - [CLion](https://jetbrains.com/clion) can import and build CMake projects out of the box.
+- *Eclipse*  - [Eclipse CDT](https://eclipse.org/cdt) has not been tested.
+- *Netbeans* - [Netbeans](https://netbeans.apache.org) has not been tested.
 
 ## Contributing your work
 

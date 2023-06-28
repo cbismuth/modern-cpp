@@ -12,6 +12,8 @@ Only [Docker](https://www.docker.com/) is required to build this project.
 
 From a Bash compliant terminal, run the [docker-build.sh](docker-build.sh) script.
 
+See [CONTRIBUTING.md](CONTRIBUTING.md) for more details.
+
 ## Credits
 
 Written by Christophe Bismuth, licensed under the [MIT](LICENSE) license.
