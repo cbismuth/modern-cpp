@@ -4,5 +4,8 @@
 # Visual Studio Code
 .vscode/
 
-# CMake output directory
-build/
+# JetBrains IntelliJ IDEA
+.idea/
+
+# Build output
+cmake-build-*/

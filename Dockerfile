@@ -3,12 +3,15 @@ FROM ubuntu:latest
 RUN    apt-get    update                    \
     && apt-get -y upgrade                   \
     && apt-get -y dist-upgrade              \
-    && apt-get -y install build-essential   \
+    && apt-get -y install tree              \
                           cmake             \
+                          make              \
+                          g++               \
+                          lcov              \
+                          valgrind          \
                           clang-format      \
                           clang-tidy        \
-                          valgrind          \
-                          libboost-all-dev
+                          libboost-test-dev
 
 ADD "https://www.random.org/cgi-bin/randbyte?nbytes=1024&format=b" .skipcache
 
