@@ -16,17 +16,17 @@ git clone https://github.com/cbismuth/modern-cpp.git
 
 This project uses [Docker](https://docker.com) for build control.
 
-Underneath `cmake`, `make` and `g++` are used to build C++ source code within the latest Linux Ubuntu LTS image available. 
+Underneath `cmake`, `make` and `g++` are used to build C++ source code within the latest Linux Ubuntu LTS image available.
 
-Build output directory named `cmake-build-debug` will be automatically copied from Docker container to host.  
+Build output directory named `cmake-build-debug` will be automatically copied from Docker container to host.
 
 GitHub Actions is also enabled on this repository, see [docker.yml](.github/workflows/docker.yml) and all [workflows](https://github.com/cbismuth/modern-cpp/actions).
 
-Build bits are located in the [docker-entrypoint.sh](docker-entrypoint.sh) script.
+Build bits are located in the [entrypoint.sh](entrypoint.sh) script.
 
 ### Code formatting and checks
 
-Code formatting and checks are wrapped within the Docker build script, also see [docker-entrypoint.sh](docker-entrypoint.sh).
+Code formatting and checks are wrapped within the Docker build script, also see [entrypoint.sh](entrypoint.sh).
 
 Underneath `clang-format`, `clang-tidy` and `lcov` are used to build C++ source code, the modern way.
 

@@ -17,4 +17,4 @@ ADD "https://www.random.org/cgi-bin/randbyte?nbytes=1024&format=b" .skipcache
 
 COPY    . /opt/modern-cpp
 WORKDIR   /opt/modern-cpp
-RUN       /opt/modern-cpp/docker-entrypoint.sh
+RUN       /opt/modern-cpp/entrypoint.sh
