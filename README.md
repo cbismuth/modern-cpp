@@ -1,4 +1,4 @@
-# Modern C++ with Boost testing support
+# Modern C++ with Boost.Test support
 
 [![build](https://github.com/cbismuth/modern-cpp/actions/workflows/docker.yml/badge.svg)](https://github.com/cbismuth/modern-cpp/actions/workflows/docker.yml)
 
